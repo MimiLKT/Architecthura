@@ -1,0 +1,81 @@
+body {
+    background: rgb(231, 229, 229);
+    font-family: system-ui;
+    font-optical-sizing: auto;
+    color: #1f2422;
+    padding: 5%;
+}
+header {
+    position: center;
+    margin-left: 4.8%;
+    padding: 2%;
+  }
+img {
+    
+    flex: 1;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centre les éléments */
+    gap: 20px; /* Espacement entre les blocs */
+    flex-wrap: wrap; /* Adaptation aux petits écrans */
+}
+
+.container-block {
+    background-color: rgb(0, 0, 0);
+    flex: 0 1 40%; /* Chaque bloc prendra environ 30% de la largeur */
+    min-width: 200px; /* Taille minimale */
+    max-width: 250px; /* Taille maximale */
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ a {
+    font-size: large;
+    color: black;
+    height: 30px;
+    width: 40px;
+    padding: 2px 10px;
+    text-decoration: none;
+    border: 2px;
+    border-color: #1f2422;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5%;
+    cursor: pointer;
+   
+}
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgb(138, 136, 136);
+}
+
+b {
+    font-size: medium;
+    height: 30px;
+    width: 40px;
+    padding: 2px 0px;
+    text-decoration: none;
+    background: whitesmoke;
+    border: 3px;
+    border-color: #1f2422;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+
+footer {
+    height: 20px; /* Hauteur du footer */
+    text-align: center;
+    padding: 1em 0;
+    margin-left: 10%;
+}
